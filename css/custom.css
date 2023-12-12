@@ -5,7 +5,7 @@
     src: url(../fonts/TBCContracticaCAPS-Regular.ttf);
 }
 body{
-  background: rgb(255, 240, 240);
+  background: rgb(252, 248, 248);
 }
 *{
     font-family: contractica;
@@ -35,6 +35,16 @@ body{
   
     min-height: 500px;
     max-height: 500px;
+  }
+  .modal__container{
+    width: 90vw;
+    
+    max-width: 90vw;
+    height: 100vh;
+    max-height: 100vh;
+  }
+  .modal__content{
+    height: 95vh;
   }
 }
 .device-iphone-14-pro{
