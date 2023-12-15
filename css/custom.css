@@ -55,6 +55,9 @@ body{
   .device-iphone-14-pro{
     transform: scale(0.5);
   }
+  .navbar-brand img{
+    width: 45px;
+  }
   .feature-card {
   
     height:  auto;
