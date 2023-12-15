@@ -46,9 +46,31 @@ body{
   .modal__content{
     height: 95vh;
   }
+  .device-iphone-14-pro{
+    transform: scale(0.7);
+  }
 }
-.device-iphone-14-pro{
-  transform: scale(0.7);
+
+@media only screen and (max-width: 500px) {
+  .device-iphone-14-pro{
+    transform: scale(0.5);
+  }
+  .feature-card {
+  
+    height:  auto;
+  }
+  .why{
+    font-size: 18px;
+  }
+  .why-reason{
+    font-size: 16px;
+  }
+  .card-body h3{
+    font-size: 16px;
+  }
+  .card-body p{
+    font-size: 13px;
+  }
 }
   .modal__overlay {
     position: fixed;
