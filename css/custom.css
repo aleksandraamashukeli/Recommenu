@@ -30,6 +30,9 @@ body{
 .feature-card {
   height: auto;
 }
+.device-container-lg{
+  display: none !important;
+}
 @media only screen and (min-width: 600px) {
   .feature-card {
   
@@ -73,6 +76,12 @@ body{
   }
   .card-body p{
     font-size: 13px;
+  }
+  .device-container{
+    display: none !important;
+  }
+  .device-container-lg{
+    display: block;
   }
 }
   .modal__overlay {
